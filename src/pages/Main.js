@@ -9,9 +9,7 @@ import Recent from '../components/Recent';
 import Current from '../components/Current';
 import Upcoming from '../components/Upcoming';
 import AddProducts from '../components/AddProducts';
-import Contact from '../components/Contact';
 import Billing from '../components/Billing';
-import Home from '../components/Home';
 import Footer from '../components/Footer';
 import Login from '../components/Login';
 import {useState} from 'react'

@@ -7,12 +7,10 @@ import {
   BrowserRouter,
   useLocation,
 } from "react-router-dom";
-import Home from "./Home";
 import Recent from "./Recent";
 import Current from "./Current";
 import Upcoming from "./Upcoming";
 import About from "./About";
-import Contact from "./Contact";
 import { ScrollSpy } from "bootstrap";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import AddProducts from "./AddProducts";
