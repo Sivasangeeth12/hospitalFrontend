@@ -2,7 +2,6 @@ import React from "react";
 import Logo from "./Logo";
 import { useState } from "react";
 import SearchBar from "./SearchBar";
-import Button from "./Button";
 import CarouselSlider from "./CarouselSlider";
 import { currentUser1 } from "./Login";
 import { HiOutlineUserCircle } from "react-icons/hi";
@@ -16,7 +15,7 @@ const Header = ({ currentUser }) => {
         <header className="d-flex  justify-content-sm-around nav-txt-font">
           <Logo />
           <SearchBar setSelectedProduct={setSelectedProduct} />
-          <Button />
+          {/* <Button /> */}
           <h5
             style={{ color: "white", marginTop: "17px", marginLeft: "800px" }}
           >

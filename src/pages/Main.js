@@ -36,7 +36,7 @@ const Main = ({onLogout, currentUser}) => {
             <Route Component={Upcoming} path='/'></Route>
             <Route Component={AddProducts} path='/'></Route>
             <Route Component={Billing} path='/'></Route>
-            <Route Component={Contact} path='/'></Route>
+            {/* <Route Component={Contact} path='/'></Route> */}
         </Routes>
       <Footer/> 
     </div>
