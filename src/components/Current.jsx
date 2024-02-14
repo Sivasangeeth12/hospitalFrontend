@@ -85,7 +85,7 @@ const Current = () => {
 
   useEffect(() => {
     axios
-      .get("https://hospital-management-backend-yxje.onrender.com/api/data")
+      .get("http://localhost:8000/api/data")
       .then((response) => {
         setData(response.data);
       })
@@ -176,4 +176,4 @@ function ProductDetailsModal({ show, onHide, product }) {
   );
 }
 export default Current;
-export { ProductCard };
+export { ProductCard, ProductDetailsModal};
